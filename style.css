@@ -4,6 +4,41 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  .intro {
+    font-size: 40px;
+
+  }
+
+  .second-tier {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .homepage-images {
+    display: none;
+  }
+
+  .small-size {
+    margin-top: 50px;
+
+}
+
+  .small-screen {
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .about-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 body {
   margin: 100px auto;
   max-width: 800px;
